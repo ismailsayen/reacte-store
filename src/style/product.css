@@ -1,4 +1,4 @@
-html {
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -6,11 +6,12 @@ html {
 
 .container {
     width: 90%;
-    margin: auto;
+    margin:0 auto;
     background-color:rgb(227, 224, 224) ;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    border-radius: 10px;
 }
 
 .card {
@@ -62,7 +63,8 @@ html {
     justify-content: space-evenly;
     background-color: white;
     cursor: pointer;
-    margin: auto;
+    margin:0 auto;
+    background-color: red;
 }
 .list-cat li{
     padding: 20px;
