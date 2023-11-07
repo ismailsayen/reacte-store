@@ -1,0 +1,61 @@
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+    background-color:rgb(227, 224, 224) ;
+}
+
+.card {
+    width: 20%;
+    min-height: 395px;
+    max-height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 10px 2%;
+    padding: 10px;
+    display: inline-block;
+    vertical-align: top;
+    box-sizing: border-box;
+    background-color: white;
+    overflow: hidden;
+  }
+  
+  .product-info {
+    text-align: center;
+  }
+  
+  .price-rating-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-items: center;
+  }
+  
+  .price-rating-container h3 {
+    margin: 10px 0;
+  }
+  .clickBtn{
+    
+    cursor: pointer;
+    color: rgb(0, 145, 255);
+  }
+.list-cat{
+    width: 95%;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: white;
+    cursor: pointer;
+    margin: auto;
+}
+.list-cat li{
+    padding: 20px;
+}
+.list-cat li:focus{
+    background-color: rgb(227, 224, 224);
+}
